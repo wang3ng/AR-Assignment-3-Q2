@@ -12,7 +12,7 @@ const SCALE_DOWN = 0.8;
 
 function modelUrl() {
     if (globalThis.MODEL_URL) return globalThis.MODEL_URL;
-    return "fish.glb";
+    return "https://raw.githubusercontent.com/wang3ng/AR-Assignment-3-Q2/main/fish.glb";
 }
 
 function setStatus(text) {
